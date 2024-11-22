@@ -1,0 +1,326 @@
+export const Bio = {
+  name: "Ashik Ahammad",
+  roles: [
+    "DevOps Engineer",
+    "Network Associate",
+    "Programmer",
+  ],
+  description:
+    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+  github: "https://github.com/Ashik-Ahammad",
+  resume:
+    "https://drive.google.com/file/d/12tWdQpII_QoieBFJeamoenZzEiFwVCYw/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
+  twitter: "https://twitter.com/AshikAhammad7",
+  instagram: "https://www.instagram.com/boogeyman__19/",
+  facebook: "https://www.facebook.com/ashik.ahammad.19/",
+};
+
+export const skills = [
+  
+  {
+    title: "DevOps",
+    skills: [
+
+      {
+        name: "AWS",
+        image:
+          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+      },
+      {
+        name: "Docker",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
+      },
+      {
+        name: "Jenkins",
+        image:
+          "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
+      },
+      {
+        name: "Chef",
+        image: "https://intellyx.com/wp-content/uploads/2019/04/chef-software_facebook-share_min.png",
+      },
+      {
+        name: "Ansible",
+        image:
+          "https://i.ibb.co.com/J7bnxKp/Ansible-logo-svg.png",
+      },
+      {
+        name: "Kubernetes",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
+      },
+      {
+        name: "Maven",
+        image:
+          "https://miro.medium.com/v2/resize:fit:450/1*kbSGIVukG6lL7JtAa9wiDA.png",
+      },
+      {
+        name: "Nagios",
+        image:
+          "https://media.licdn.com/dms/image/D5612AQFIqImO4QQsLQ/article-cover_image-shrink_600_2000/0/1673430322003?e=2147483647&v=beta&t=jUgelW1gClseMUAFlsba5OjYZcqnOlj9YNtDLgP9L6k",
+      },
+      {
+        name: "Helm",
+        image:
+          "https://ih1.redbubble.net/image.4647202414.0753/st,small,507x507-pad,600x600,f8f8f8.jpg",
+      },
+    ],
+  },
+  {
+    title: "Others",
+    skills: [
+      {
+        name: "Linux",
+        image:
+          "https://e7.pngegg.com/pngimages/250/100/png-clipart-linux-linux.png",
+      },
+      {
+        name: "Git",
+        image:
+          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+      },
+      {
+        name: "GitHub",
+        image:
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+      {
+        name: "GitLab",
+        image:
+          "https://about.gitlab.com/nuxt-images/open-graph/open-graph-gitlab.png",
+      },
+      {
+        name: "SDLC",
+        image:
+          "https://t4.ftcdn.net/jpg/05/41/90/83/360_F_541908399_uptYuIsUmhx2AKQD05CjLU3gdDg3Nzb4.jpg",
+      },
+      {
+        name: "STLC",
+        image:
+          "https://qacraft.com/wp-content/uploads/2022/11/Requirement-Analysis-1.png",
+      },
+      {
+        name: "Netlify",
+        image:
+          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
+      },
+      {
+        name: "VS Code",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+    ],
+  },
+];
+
+export const experiences = [
+  {
+    id: 0,
+    img: "https://i.ibb.co.com/j3wxDrv/images.png",
+    role: "Junior DevOps Engineer Intern",
+    company: "TECH Ltd.",
+    date: "May 2024 - July 2023",
+    desc: "Working on Cloud Platforms, managing DevOps, and streamlining the process with automation.",
+    skills: [
+      "Docker",
+      "Terraform",
+      "AWS",
+      "EC2",
+      "GH Actions",
+      "Nginx",
+    ],
+    // doc: "If I want to add my certification", 
+  },
+  {
+    id: 1,
+    img: "https://i.ibb.co.com/YjtVHjb/istockphoto-1068581458-612x612.jpg",
+    role: "Network Associate Trainee",
+    company: "DIU Data Center",
+    date: "Jan 2024 - Present",
+    desc: "Working on network troubleshooting, managing switch, routers and security.",
+    skills: [
+      "IPv4",
+      "IPv6",
+      "Network Build",
+      "Network Monitoring ",
+    ],
+    // doc: "If I want to add my certification", 
+  },
+];
+
+export const education = [
+  {
+    id: 0,
+    img: "https://i.ibb.co.com/mcqnRsN/channels4-profile.jpg",
+    school: "Daffodil International University",
+    date: "April 2021 - April 2025",
+    grade: " 3.20 CGPA",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Daffodil International University, Dhaka. I have completed 9 semesters and have a CGPA of 3.20. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, Computer Architecture, among others. I am also a member of the Computer Programming Club at DIU.",
+    degree: "Bachelor of Science - B.Sc., Computer Science and Engineering",
+  },
+  {
+    id: 1,
+    img: "https://i.ibb.co.com/3z2kNc1/910b0d997da0bab7e5a32bbaae023c27.jpg",
+    school: "Jahangirnagar University School & College, Savar",
+    date: "July 2017 - July 2019",
+    grade: " 4.17 GPA",
+    desc: "I completed my class 12 higher scondary education at Jahangirnagar University College, Savar, where I studied Science.",
+    degree: "HSC(XII), Science",
+  },
+  {
+    id: 2,
+    img: "https://i.ibb.co.com/vkh93mt/zdhghsc.png",
+    school: "Hardinge Govt. High School, Dhamrai",
+    date: "Apr 2012 - Apr 2017",
+    grade: " 5.00 GPA",
+    desc: "I completed my class 10 education at Hardinge High School, Dhamrai, where I also studied Science.",
+    degree: "SSC(X), Science",
+  },
+];
+
+export const projects = [
+  
+  {
+    id: 0,
+    title: "Portfolio",
+    date: "May 2024 - June 2024",
+    description:
+      "I just finish the process of re-designing my portfolio site into something more current and professional.I possess a wealth of experience in designing, implementing, and optimizing cloud infrastructure solutions. My expertise extends to orchestrating seamless deployment pipelines, leveraging automation tools, and ensuring high availability and scalability of systems. Additionally, holding a CCNA certification further bolsters my proficiency in network design, configuration, and troubleshooting, allowing me to deliver robust and reliable solutions tailored to meet business objectives. My holistic approach to infrastructure management prioritizes security, performance, and cost-efficiency, resulting in streamlined operations and enhanced business outcomes. ",
+    image:
+      "https://i.ibb.co/64g4KQ5/image.png",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
+    category: "web app",
+    github: "https://github.com/Ashik-Ahammad",
+    webapp: "",
+    member: [
+      {
+        name: "Ashik Ahammad",
+        img: "https://avatars.githubusercontent.com/u/82080802?v=4",
+        linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
+        github: "https://github.com/Ashik-Ahammad/",
+      },
+    ],
+  },
+
+  {
+    id: 1,
+    title: "Planet Chat",
+    date: "Apr 2023 - May 2023",
+    description:
+      "Developed a full-stack web application that allows users to do basic chat messaging system, using chat engine, can create components for the user interface, manage message state, and handle communication with a backend server.",
+    image:
+      "https://i.ibb.co/86p5nTQ/image.png",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js","Chat Engine.io"],
+    category: "web app",
+    github: "https://github.com/Ashik-Ahammad/",
+    webapp: "https://planet-chat-by-ash.netlify.app/",
+    member: [
+      {
+        name: "Ashik Ahammad",
+        img: "https://avatars.githubusercontent.com/u/82080802?v=4",
+        linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
+        github: "https://github.com/Ashik-Ahammad/",
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Overseas Study in BD",
+    date: "Jan 2023 - Mar 2023",
+    description:
+      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python. Achievements: Achieved an accuracy of 92.2% to accurately predict why student go overseas for higher studies.",
+    image:
+      "https://www.researchgate.net/publication/354764950/figure/fig2/AS:1070949189300224@1632345592523/Trend-in-Respondents-Families-regarding-Higher-Education-Male-vs-Female.png",
+    tags: ["Python", "ML", "Deep Learning", "Dataset","IEEE Format"],
+    category: "machine learning",
+    github: "https://github.com/Ashik-Ahammad",
+    webapp: "",
+    member: [
+      {
+        name: "Ashik Ahammad",
+        img: "https://avatars.githubusercontent.com/u/82080802?v=4",
+        linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
+        github: "https://github.com/Ashik-Ahammad",
+      },
+      {
+        name: "Antor Sharkar",
+        img: "https://media.licdn.com/dms/image/D5603AQFcztPjACBi_g/profile-displayphoto-shrink_800_800/0/1715271701729?e=1721865600&v=beta&t=0hoaTgZ2je175d4g5Qze4poZ4dMILUq7BlXB3xwQhig",
+        linkedin: "https://www.linkedin.com/in/antor-sharkar/",
+        github: "",
+      },
+    ],
+  },
+  {
+    id: 10,
+    title: "Blood Donor Finding App",
+    date: "Jun 2024 ",
+    description:
+      "A Donor Finding App made with Java, Firebase. Users can search for donors coming from API and apply there.",
+    image:
+      "https://i.ibb.co/YDPxZv0/logout-mail.png",
+    tags: ["Java", "XML", "Firebase Auth","Firestore Database"],
+    category: "android app",
+    github: "https://github.com/Ashik-Ahammad/BloodDonors",
+    webapp: "https://drive.google.com/file/d/1F3GVF0la3nbP18Px7Ro0sconwFo0UZkr/view?usp=sharing",
+    member: [
+      {
+        name: "Ashik Ahammad",
+        img: "https://avatars.githubusercontent.com/u/82080802?v=4",
+        linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
+        github: "https://github.com/Ashik-Ahammad/",
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Property Seller",
+    date: "Oct 2021",
+    description:
+      "A property selling website made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a login page where users can log in with their Google account.",
+    image:
+      "https://i.ibb.co/yBX2k2H/image.png",
+    tags: ["React Js", "Firebase", "Node JS", "HTML", "CSS"],
+    category: "web app",
+    github: "https://github.com/Ashik-Ahammad/real-estate-web-by-me",
+    webapp: "https://united-property-apartment.netlify.app/",
+    member: [
+      {
+        name: "Ashik Ahammad",
+        img: "https://avatars.githubusercontent.com/u/82080802?v=4",
+        linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
+        github: "https://github.com/Ashik-Ahammad/",
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Hello Coders ",
+    date: "Jan 2022",
+    description:
+      " A Web App made with React JS,  and Material UI. It has a login page where users can log in with their Google account.It is a platform of getting certification different programming language course. It has a calendar where users can see all the tasks on a particular date. It has payment gateway where user can pay for their desire course and become a pro.",
+    image:
+      "https://i.ibb.co/wQqn2RL/Screenshot-2024-05-22-021158.png",
+    tags: [ "HTML", "React Js", "Material UI", "Firebase Auth", "Node JS", "Express JS"],
+    category: "web app",
+    github: "https://github.com/Ashik-Ahammad/hello-coders/",
+    webapp: "https://hello-coders-learns.netlify.app/",
+    member: [
+      {
+        name: "Ashik Ahammad",
+        img: "https://avatars.githubusercontent.com/u/82080802?v=4",
+        linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
+        github: "https://github.com/Ashik-Ahammad/",
+      },
+    ],
+  },
+];
+
+export const TimeLineData = [
+  { year: 2017, text: "Started my journey" },
+  { year: 2018, text: "Worked as a freelance developer" },
+  { year: 2019, text: "Founded JavaScript Mastery" },
+  { year: 2020, text: "Shared my projects with the world" },
+  { year: 2021, text: "Started my own platform" },
+];
