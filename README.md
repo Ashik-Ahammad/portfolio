@@ -2,7 +2,7 @@
 
 Welcome to my portfolio site! This project showcases my skills, projects, and experiences also my educational background.
 
-## Weblink: [Live Website](https://ashik-ahammad.github.io/ashik-ahammad-portfolio/)
+## Weblink: [Live Website](https://ashik-ahammad.github.io/portfolio/)
 
 
 ## Previews:
