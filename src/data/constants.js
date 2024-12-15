@@ -296,7 +296,7 @@ export const projects = [
       "Mastered JavaScript for interactive web elements and advanced client-side functionality, while leveraging React for building dynamic, single-page applications (SPAs) with component-based architecture. Developed full-stack applications using JavaScript, React, Node.js, Express, MongoDB, and MySQL, focusing on functionality and database integration.",
     image:
       "https://i.ibb.co.com/0hHkrCK/certificate-web-Dev-Ashik.png",
-    tags: ["HTML", "CSS", "BOOTSTRAP", "TAILWIND","JS","REACT","NODE JS","EXPRESS","MONGO DB", "MySQL"],
+    tags: ["HTML", "CSS", "BOOTSTRAP","JS","REACT","NODE JS","EXPRESS","MySQL"],
     category: "certification",
     github: "https://github.com/Ashik-Ahammad",
     webapp: "",
