@@ -9,7 +9,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Ashik-Ahammad",
   resume:
-    "https://drive.google.com/file/d/12tWdQpII_QoieBFJeamoenZzEiFwVCYw/view?usp=sharing",
+    "https://drive.google.com/file/d/1QfeQdFtvQl-GH1zJ_EY0pp8kOebKBfgq/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
   twitter: "https://twitter.com/AshikAhammad7",
   instagram: "https://www.instagram.com/boogeyman__19/",
