@@ -2,8 +2,7 @@ export const Bio = {
   name: "Ashik Ahammad",
   roles: [
     "DevOps Engineer",
-    "Network Associate",
-    "Programmer",
+    "Web Developer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -21,12 +20,11 @@ export const skills = [
   {
     title: "DevOps",
     skills: [
-
       {
-        name: "AWS",
-        image:
-          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+        name: "Linux",
+        image: "https://e7.pngegg.com/pngimages/250/100/png-clipart-linux-linux.png",
       },
+      
       {
         name: "Docker",
         image:
@@ -38,8 +36,14 @@ export const skills = [
           "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
       },
       {
-        name: "Chef",
-        image: "https://intellyx.com/wp-content/uploads/2019/04/chef-software_facebook-share_min.png",
+        name: "AWS",
+        image:
+          "https://download.logo.wine/logo/Amazon_Web_Services/Amazon_Web_Services-Logo.wine.png",
+      },
+      {
+        name: "GH Actions",
+        image:
+          "https://muhannad.io/images/post-images/cicd_gh_actions_logo.jpg",
       },
       {
         name: "Ansible",
@@ -47,35 +51,30 @@ export const skills = [
           "https://i.ibb.co.com/J7bnxKp/Ansible-logo-svg.png",
       },
       {
+        name: "SonarQube",
+        image:
+          "https://www.loginradius.com/blog/static/d565ea49a97bb0cce8f1937aa87e64b7/03979/sonarqube.png",
+      },
+      {
         name: "Kubernetes",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
       },
       {
-        name: "Maven",
+        name: "Terraform",
         image:
-          "https://miro.medium.com/v2/resize:fit:450/1*kbSGIVukG6lL7JtAa9wiDA.png",
+          "https://miro.medium.com/v2/resize:fit:400/1*lG-hTnKrmpQO306772jGpg.png",
       },
       {
-        name: "Nagios",
+        name: "Prometheus",
         image:
-          "https://media.licdn.com/dms/image/D5612AQFIqImO4QQsLQ/article-cover_image-shrink_600_2000/0/1673430322003?e=2147483647&v=beta&t=jUgelW1gClseMUAFlsba5OjYZcqnOlj9YNtDLgP9L6k",
-      },
-      {
-        name: "Helm",
-        image:
-          "https://ih1.redbubble.net/image.4647202414.0753/st,small,507x507-pad,600x600,f8f8f8.jpg",
+          "https://www.honeycomb.io/wp-content/uploads/2021/12/blog_hnybyte_app_metrics_w_prometheus_thumbnail.jpg",
       },
     ],
   },
   {
-    title: "Others",
+    title: "Web Development",
     skills: [
-      {
-        name: "Linux",
-        image:
-          "https://e7.pngegg.com/pngimages/250/100/png-clipart-linux-linux.png",
-      },
       {
         name: "Git",
         image:
@@ -92,14 +91,39 @@ export const skills = [
           "https://about.gitlab.com/nuxt-images/open-graph/open-graph-gitlab.png",
       },
       {
-        name: "SDLC",
+        name: "HTML CSS",
         image:
-          "https://t4.ftcdn.net/jpg/05/41/90/83/360_F_541908399_uptYuIsUmhx2AKQD05CjLU3gdDg3Nzb4.jpg",
+          "https://www.nicepng.com/png/detail/985-9857805_html5-css3-logo-png-html-and-css-logo.png",
       },
       {
-        name: "STLC",
+        name: "Tailwind",
         image:
-          "https://qacraft.com/wp-content/uploads/2022/11/Requirement-Analysis-1.png",
+          "https://images.seeklogo.com/logo-png/35/1/tailwind-css-logo-png_seeklogo-354675.png",
+      },
+      {
+        name: "JS",
+        image:
+          "https://e7.pngegg.com/pngimages/87/538/png-clipart-javascript-scalable-graphics-logo-encapsulated-postscript-javascript-icon-text-logo-thumbnail.png",
+      },
+      {
+        name: "React",
+        image:
+          "https://www.pngitem.com/pimgs/m/664-6644509_icon-react-js-logo-hd-png-download.png",
+      },
+      {
+        name: "Nodejs",
+        image:
+          "https://static-00.iconduck.com/assets.00/nodejs-icon-2048x2048-rueyo8fw.png",
+      },
+      {
+        name: "MongoDB",
+        image:
+          "https://cdn.worldvectorlogo.com/logos/mongodb-icon-2.svg",
+      },
+      {
+        name: "MySQL",
+        image:
+          "https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png",
       },
       {
         name: "Netlify",
@@ -156,8 +180,8 @@ export const education = [
     img: "https://i.ibb.co.com/mcqnRsN/channels4-profile.jpg",
     school: "Daffodil International University",
     date: "April 2021 - April 2025",
-    grade: " 3.17 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Daffodil International University, Dhaka. I have completed 9 semesters and have a CGPA of 3.20. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, Computer Architecture, Web Enggg and more. My coursework has equipped me with practical and theoretical knowledge, preparing me for real-world challenges in software development and IT solutions. Beyond academics, my time at Daffodil has been instrumental in building my communication skills and learning the value of teamwork. Through numerous group projects, collaborative problem-solving sessions, and presentations, I have enhanced my ability to work effectively within diverse teams, articulate ideas clearly, and manage projects successfully. These experiences have prepared me for real-world professional environments and strengthened my confidence as a team player.",
+    grade: " 3.19 CGPA",
+    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Daffodil International University, Dhaka. I have completed 9 semesters and have a CGPA of 3.19. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, Computer Architecture, Web Enggg and more. My coursework has equipped me with practical and theoretical knowledge, preparing me for real-world challenges in software development and IT solutions. Beyond academics, my time at Daffodil has been instrumental in building my communication skills and learning the value of teamwork. Through numerous group projects, collaborative problem-solving sessions, and presentations, I have enhanced my ability to work effectively within diverse teams, articulate ideas clearly, and manage projects successfully. These experiences have prepared me for real-world professional environments and strengthened my confidence as a team player.",
     degree: "Bachelor of Science - B.Sc. in Computer Science and Engineering",
   },
   {

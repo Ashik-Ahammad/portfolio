@@ -104,7 +104,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.instagram} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024 Ashik Ahammad. All rights reserved.
+          &copy; 2025 Ashik Ahammad. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
