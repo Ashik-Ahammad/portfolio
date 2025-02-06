@@ -2,7 +2,7 @@ export const Bio = {
   name: "Ashik Ahammad",
   roles: [
     "DevOps Engineer",
-    "Web Developer",
+    "SDET",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -73,7 +73,7 @@ export const skills = [
     ],
   },
   {
-    title: "Web Development",
+    title: "Others",
     skills: [
       {
         name: "Git",
@@ -140,25 +140,9 @@ export const skills = [
 ];
 
 export const experiences = [
+  
   {
     id: 0,
-    img: "https://i.ibb.co.com/j3wxDrv/images.png",
-    role: "Junior DevOps Engineer Intern",
-    company: "TECH Ltd.",
-    date: "May 2024 - July 2023",
-    desc: "Working on Cloud Platforms, managing DevOps, and streamlining the process with automation.",
-    skills: [
-      "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "GH Actions",
-      "Nginx",
-    ],
-    // doc: "If I want to add my certification", 
-  },
-  {
-    id: 1,
     img: "https://i.ibb.co.com/YjtVHjb/istockphoto-1068581458-612x612.jpg",
     role: "Network Associate Trainee",
     company: "DIU Data Center",
