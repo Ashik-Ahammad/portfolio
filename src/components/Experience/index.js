@@ -80,7 +80,7 @@ const index = () => {
             <Wrapper>
                 <Title>Experience</Title>
                 <Desc>
-                My professional background as a DevOps engineer includes extensive experience working with various companies and contributing to a diverse array of projects, demonstrating my versatility and expertise in the field.
+                As a fresher DevOps Engineer, I have worked on real-world projects and contributed to a diverse range of initiatives, showcasing my versatility and growing expertise in the field.
                 </Desc>
                 <TimelineSection>
                     <Timeline>

@@ -88,7 +88,7 @@ function Footer() {
   return (
     <FooterContainer>
       <FooterWrapper>
-        <Logo> <a href="mailto:ahammad15-4143@diu.edu.bd" style={{ textDecoration: 'none' }}>ashik19ahammad@gmail.com</a> 
+        <Logo> <a href="mailto:ashik19ahammad@gmail.com" style={{ textDecoration: 'none' }}>ashik19ahammad@gmail.com</a> 
         </Logo>
         <Nav>
           <NavLink href="#about">About</NavLink>

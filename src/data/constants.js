@@ -2,14 +2,17 @@ export const Bio = {
   name: "Ashik Ahammad",
   roles: [
     "DevOps Engineer",
-    "SDET",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    `DevOps Enthusiast with expertise in automation, infrastructure management, deployment pipelines,
+    and foundational knowledge of container orchestration. Passionate about streamlining workflows,
+    minimizing manual intervention, and enhancing system reliability. Eager to join a collaborative
+    environment where I can learn from experienced professionals while contributing to large-scale
+    systems.`,
   github: "https://github.com/Ashik-Ahammad",
   resume:
-    "https://drive.google.com/file/d/1QfeQdFtvQl-GH1zJ_EY0pp8kOebKBfgq/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
+    "https://drive.google.com/file/d/1pTHowhZaF-Za2I2rpUJt1BwrFX-PVXu2/view?usp=sharing",
+  linkedin: "https://www.linkedin.com/in/ashik-ahammad",
   twitter: "https://twitter.com/AshikAhammad7",
   instagram: "https://www.instagram.com/boogeyman__19/",
   facebook: "https://www.facebook.com/ashik.ahammad.19/",
@@ -24,7 +27,11 @@ export const skills = [
         name: "Linux",
         image: "https://e7.pngegg.com/pngimages/250/100/png-clipart-linux-linux.png",
       },
-      
+      {
+        name: "Git",
+        image:
+          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+      },
       {
         name: "Docker",
         image:
@@ -33,7 +40,7 @@ export const skills = [
       {
         name: "Jenkins",
         image:
-          "https://toppng.com/uploads/preview/jenkins-logo-11609365847mufysaivph.png",
+          "https://miro.medium.com/v2/resize:fit:400/0*7iKZS4Mi0nSboFRY.png",
       },
       {
         name: "AWS",
@@ -51,34 +58,39 @@ export const skills = [
           "https://i.ibb.co.com/J7bnxKp/Ansible-logo-svg.png",
       },
       {
-        name: "SonarQube",
-        image:
-          "https://www.loginradius.com/blog/static/d565ea49a97bb0cce8f1937aa87e64b7/03979/sonarqube.png",
-      },
-      {
-        name: "Kubernetes",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
-      },
-      {
         name: "Terraform",
         image:
           "https://miro.medium.com/v2/resize:fit:400/1*lG-hTnKrmpQO306772jGpg.png",
+      },
+      {
+        name: "K8s",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/0/00/Kubernetes_%28container_engine%29.png",
       },
       {
         name: "Prometheus",
         image:
           "https://www.honeycomb.io/wp-content/uploads/2021/12/blog_hnybyte_app_metrics_w_prometheus_thumbnail.jpg",
       },
+      {
+        name: "Grafana",
+        image:
+          "https://images.ctfassets.net/o7xu9whrs0u9/7Erq6IEoCaJkBtHMhblLzS/9310518537dffc123d3d9059edace8ed/Grafana-logo-2.png",
+      },
     ],
   },
   {
-    title: "Others",
+    title: "Familiar With",
     skills: [
       {
-        name: "Git",
+        name: "Bash",
         image:
-          "https://e7.pngegg.com/pngimages/713/558/png-clipart-computer-icons-pro-git-github-logo-text-logo-thumbnail.png",
+          "https://www.saagie.com/wp-content/uploads/elementor/thumbs/Bash-q3vwhhx7mhmqnccs9u8ukoalpdg5c48vkxo3uvvuo0.png",
+      },
+      {
+        name: "Python",
+        image:
+          "https://www.khmer168.com/wp-content/uploads/2024/01/Python-Symbol-2048x1152.png",
       },
       {
         name: "GitHub",
@@ -89,6 +101,11 @@ export const skills = [
         name: "GitLab",
         image:
           "https://about.gitlab.com/nuxt-images/open-graph/open-graph-gitlab.png",
+      },
+      {
+        name: "ArgoCD",
+        image:
+          "https://cdn.prod.website-files.com/5f10ed4c0ebf7221fb5661a5/5f2ba11e378c8f49e8b28486_argo.png",
       },
       {
         name: "HTML CSS",
@@ -120,42 +137,27 @@ export const skills = [
         image:
           "https://cdn.worldvectorlogo.com/logos/mongodb-icon-2.svg",
       },
-      {
-        name: "MySQL",
-        image:
-          "https://1000logos.net/wp-content/uploads/2020/08/MySQL-Logo.png",
-      },
-      {
-        name: "Netlify",
-        image:
-          "https://seeklogo.com/images/N/netlify-logo-BD8F8A77E2-seeklogo.com.png",
-      },
-      {
-        name: "VS Code",
-        image:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
-      },
     ],
   },
 ];
 
 export const experiences = [
   
-  {
-    id: 0,
-    img: "https://i.ibb.co.com/YjtVHjb/istockphoto-1068581458-612x612.jpg",
-    role: "Network Associate Trainee",
-    company: "DIU Data Center",
-    date: "Jan 2024 - Present",
-    desc: "Working on network troubleshooting, managing switch, routers and security.",
-    skills: [
-      "IPv4",
-      "IPv6",
-      "Network Build",
-      "Network Monitoring ",
-    ],
-    // doc: "If I want to add my certification", 
-  },
+  // {
+  //   id: 0,
+  //   img: "https://i.ibb.co.com/YjtVHjb/istockphoto-1068581458-612x612.jpg",
+  //   role: "Network Associate Trainee",
+  //   company: "DIU Data Center",
+  //   date: "Jan 2024 - Present",
+  //   desc: "Working on network troubleshooting, managing switch, routers and security.",
+  //   skills: [
+  //     "IPv4",
+  //     "IPv6",
+  //     "Network Build",
+  //     "Network Monitoring ",
+  //   ],
+  //   // doc: "If I want to add my certification", 
+  // },
 ];
 
 export const education = [
@@ -164,8 +166,8 @@ export const education = [
     img: "https://i.ibb.co.com/mcqnRsN/channels4-profile.jpg",
     school: "Daffodil International University",
     date: "April 2021 - April 2025",
-    grade: " 3.19 CGPA",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Daffodil International University, Dhaka. I have completed 9 semesters and have a CGPA of 3.19. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, Computer Architecture, Web Enggg and more. My coursework has equipped me with practical and theoretical knowledge, preparing me for real-world challenges in software development and IT solutions. Beyond academics, my time at Daffodil has been instrumental in building my communication skills and learning the value of teamwork. Through numerous group projects, collaborative problem-solving sessions, and presentations, I have enhanced my ability to work effectively within diverse teams, articulate ideas clearly, and manage projects successfully. These experiences have prepared me for real-world professional environments and strengthened my confidence as a team player.",
+    grade: " 3.17 CGPA",
+    desc: "I am a recent graduate in Computer Science and Engineering from Daffodil International University, Dhaka, with a CGPA of 3.17. My academic background includes comprehensive coursework in areas such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, and Web Engineering. These studies have equipped me with the knowledge and skills to solve complex engineering problems and develop practical software and IT solutions. Throughout my degree, I actively participated in team-based projects, technical presentations, and collaborative problem-solving activities, which strengthened my communication, and project management abilities.",
     degree: "Bachelor of Science - B.Sc. in Computer Science and Engineering",
   },
   {
@@ -190,12 +192,49 @@ export const education = [
 
 export const projects = [
   
+  
+  {
+    id: 10,
+    title: "Wanderlust - Ultimate Travel Blog",
+    date: "DevOps Project - May 2025 ",
+    description:
+      `Wanderlust Travel Blog Site - A Complete DevSecOps Implementation. WanderLust is a simple MERN website ✈
+      🔹 Tech Stack Used
+        ✔ GitHub (Code)
+        ✔ Docker (Containerization)
+        ✔ Jenkins (CI/CD Pipelines)
+        ✔ OWASP + Trivy + SonarQube (Security & Quality)
+        ✔ ArgoCD (GitOps for Kubernetes Deployments)
+        ✔ AWS EKS (Managed Kubernetes)
+        ✔ Helm (Monitoring with Prometheus & Grafana)
+
+        🔹 Deployment Flow
+          1️⃣ Code → Build → Scan → Push (Jenkins CI)
+          2️⃣ GitOps Sync (ArgoCD auto-deploys to EKS)
+          3️⃣ Monitoring & Alerts (Prometheus + Grafana)
+      `,
+    image:
+      "https://i.ibb.co/jpmk0XS/image.png",
+    tags: ["Docker", "Jenkins", "AWS", "K8s"],
+    category: "DEVOPS",
+    github: "https://github.com/Ashik-Ahammad/Wanderlust-Mega-Project",
+    webapp: "https://drive.google.com/file/d/1F3GVF0la3nbP18Px7Ro0sconwFo0UZkr/view?usp=sharing",
+    member: [
+      {
+        name: "Ashik Ahammad",
+        img: "https://avatars.githubusercontent.com/u/82080802?v=4",
+        linkedin: "https://www.linkedin.com/in/ashik-ahammad",
+        github: "https://github.com/Ashik-Ahammad/Wanderlust-Mega-Project",
+      },
+    ],
+  },
+
   {
     id: 0,
     title: "Portfolio",
-    date: "May 2024 - June 2024",
+    date: "Portfolio Project - May 2024",
     description:
-      "I just finish the process of re-designing my portfolio site into something more current and professional.I possess a wealth of experience in designing, implementing, and optimizing cloud infrastructure solutions. My expertise extends to orchestrating seamless deployment pipelines, leveraging automation tools, and ensuring high availability and scalability of systems. Additionally, holding a CCNA certification further bolsters my proficiency in network design, configuration, and troubleshooting, allowing me to deliver robust and reliable solutions tailored to meet business objectives. My holistic approach to infrastructure management prioritizes security, performance, and cost-efficiency, resulting in streamlined operations and enhanced business outcomes. ",
+      "I just finish the process of re-designing my portfolio site into something more current and professional.",
     image:
       "https://i.ibb.co/64g4KQ5/image.png",
     tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
@@ -206,79 +245,16 @@ export const projects = [
       {
         name: "Ashik Ahammad",
         img: "https://avatars.githubusercontent.com/u/82080802?v=4",
-        linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
+        linkedin: "https://www.linkedin.com/in/ashik-ahammad",
         github: "https://github.com/Ashik-Ahammad/",
       },
     ],
   },
-
-  {
-    id: 1,
-    title: "Planet Chat",
-    date: "Apr 2023 - May 2023",
-    description:
-      "Developed a full-stack web application that allows users to do basic chat messaging system, using chat engine, can create components for the user interface, manage message state, and handle communication with a backend server.",
-    image:
-      "https://i.ibb.co/86p5nTQ/image.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js","Chat Engine.io"],
-    category: "web app",
-    github: "https://github.com/Ashik-Ahammad/",
-    webapp: "https://planet-chat-by-ash.netlify.app/",
-    member: [
-      {
-        name: "Ashik Ahammad",
-        img: "https://avatars.githubusercontent.com/u/82080802?v=4",
-        linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
-        github: "https://github.com/Ashik-Ahammad/",
-      },
-    ],
-  },
-  {
-    id: 10,
-    title: "Blood Donor Finding App",
-    date: "Jun 2024 ",
-    description:
-      "A Donor Finding App made with Java, Firebase. Users can search for donors coming from API and apply there.",
-    image:
-      "https://i.ibb.co/YDPxZv0/logout-mail.png",
-    tags: ["Java", "XML", "Firebase Auth","Firestore Database"],
-    category: "android app",
-    github: "https://github.com/Ashik-Ahammad/BloodDonors",
-    webapp: "https://drive.google.com/file/d/1F3GVF0la3nbP18Px7Ro0sconwFo0UZkr/view?usp=sharing",
-    member: [
-      {
-        name: "Ashik Ahammad",
-        img: "https://avatars.githubusercontent.com/u/82080802?v=4",
-        linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
-        github: "https://github.com/Ashik-Ahammad/",
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Property Seller",
-    date: "Oct 2021",
-    description:
-      "A property selling website made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a login page where users can log in with their Google account.",
-    image:
-      "https://i.ibb.co/yBX2k2H/image.png",
-    tags: ["React Js", "Firebase", "Node JS", "HTML", "CSS"],
-    category: "web app",
-    github: "https://github.com/Ashik-Ahammad/real-estate-web-by-me",
-    webapp: "https://united-property-apartment.netlify.app/",
-    member: [
-      {
-        name: "Ashik Ahammad",
-        img: "https://avatars.githubusercontent.com/u/82080802?v=4",
-        linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
-        github: "https://github.com/Ashik-Ahammad/",
-      },
-    ],
-  },
+  
   {
     id: 5,
-    title: "Hello Coders ",
-    date: "Jan 2022",
+    title: "Hello Coders",
+    date: "Web Project - Jan 2022",
     description:
       " A Web App made with React JS,  and Material UI. It has a login page where users can log in with their Google account.It is a platform of getting certification different programming language course. It has a calendar where users can see all the tasks on a particular date. It has payment gateway where user can pay for their desire course and become a pro.",
     image:
@@ -291,11 +267,12 @@ export const projects = [
       {
         name: "Ashik Ahammad",
         img: "https://avatars.githubusercontent.com/u/82080802?v=4",
-        linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
+        linkedin: "https://www.linkedin.com/in/ashik-ahammad",
         github: "https://github.com/Ashik-Ahammad/",
       },
     ],
   },
+
   {
     id: 2,
     title: "MERN STACK CERTIFICATION",
@@ -312,7 +289,7 @@ export const projects = [
       {
         name: "Ashik Ahammad",
         img: "https://avatars.githubusercontent.com/u/82080802?v=4",
-        linkedin: "https://www.linkedin.com/in/ashik-ahammad-6a13a5216/",
+        linkedin: "https://www.linkedin.com/in/ashik-ahammad",
         github: "https://github.com/Ashik-Ahammad",
       },
     ],
