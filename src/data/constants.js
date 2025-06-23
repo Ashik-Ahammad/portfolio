@@ -11,10 +11,8 @@ export const Bio = {
     systems.`,
   github: "https://github.com/Ashik-Ahammad",
   resume:
-    "https://drive.google.com/file/d/1pTHowhZaF-Za2I2rpUJt1BwrFX-PVXu2/view?usp=sharing",
+    "https://drive.google.com/file/d/17H3oVQxJOTu6QAvRjZ6G1yPAOc2-yfIs/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ashik-ahammad",
-  twitter: "https://twitter.com/AshikAhammad7",
-  instagram: "https://www.instagram.com/boogeyman__19/",
   facebook: "https://www.facebook.com/ashik.ahammad.19/",
 };
 
@@ -88,11 +86,6 @@ export const skills = [
           "https://www.saagie.com/wp-content/uploads/elementor/thumbs/Bash-q3vwhhx7mhmqnccs9u8ukoalpdg5c48vkxo3uvvuo0.png",
       },
       {
-        name: "Python",
-        image:
-          "https://www.khmer168.com/wp-content/uploads/2024/01/Python-Symbol-2048x1152.png",
-      },
-      {
         name: "GitHub",
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
@@ -100,22 +93,12 @@ export const skills = [
       {
         name: "GitLab",
         image:
-          "https://about.gitlab.com/nuxt-images/open-graph/open-graph-gitlab.png",
+          "https://i.ibb.co/4RLXtyx6/channels4-profile.jpg",
       },
       {
-        name: "ArgoCD",
+        name: "C++",
         image:
-          "https://cdn.prod.website-files.com/5f10ed4c0ebf7221fb5661a5/5f2ba11e378c8f49e8b28486_argo.png",
-      },
-      {
-        name: "HTML CSS",
-        image:
-          "https://www.nicepng.com/png/detail/985-9857805_html5-css3-logo-png-html-and-css-logo.png",
-      },
-      {
-        name: "Tailwind",
-        image:
-          "https://images.seeklogo.com/logo-png/35/1/tailwind-css-logo-png_seeklogo-354675.png",
+          "https://images.prismic.io/keep-it/cbe401fa-ce4b-4644-985f-e2bb42b909ef_28_WhyC%2B%2B.png?auto=compress,format&rect=0,0,1200,1200&w=800&h=800",
       },
       {
         name: "JS",
@@ -125,7 +108,7 @@ export const skills = [
       {
         name: "React",
         image:
-          "https://www.pngitem.com/pimgs/m/664-6644509_icon-react-js-logo-hd-png-download.png",
+          "https://i.ibb.co/fdJ05YMN/images.png",
       },
       {
         name: "Nodejs",
@@ -137,6 +120,22 @@ export const skills = [
         image:
           "https://cdn.worldvectorlogo.com/logos/mongodb-icon-2.svg",
       },
+      {
+        name: "ArgoCD",
+        image:
+          "https://cdn.prod.website-files.com/5f10ed4c0ebf7221fb5661a5/5f2ba11e378c8f49e8b28486_argo.png",
+      },
+      {
+        name: "HTML CSS",
+        image:
+          "https://i.ibb.co/0yZhNrb6/html-css-1000x570.webp",
+      },
+      {
+        name: "Tailwind",
+        image:
+          "https://images.seeklogo.com/logo-png/35/1/tailwind-css-logo-png_seeklogo-354675.png",
+      },
+      
     ],
   },
 ];
@@ -230,14 +229,48 @@ export const projects = [
   },
 
   {
+    id: 11,
+    title: "Tic Tac Toe Game",
+    date: "DevOps Project - June 2025 ",
+    description:
+      `TIC TAC TOE - A Complete DevSecOps Implementation.
+      🔹 Tech Stack Used
+        ✔ GitHub (Code)
+        ✔ Docker (Containerization)
+        ✔ GitHub Actions (CI/CD Pipelines)
+        ✔ Trivy + SonarQube (Security & Quality) + Slack Notifications
+        ✔ AWS EKS (Managed Kubernetes) provisioned with Terraform
+
+        🔹 Deployment Flow
+          1️⃣ Code → Build → Scan → Push (GitHub Actions)
+          2️⃣ DevSecOps Sync (Auto-deploys to EKS)
+          
+      `,
+    image:
+      "https://i.ibb.co/fdKGrS9G/457668207-3bb101ad-e73f-44bc-b170-db8ddb3beb39.png",
+    tags: ["Docker", "GHActions", "AWS", "K8s", "Terraform"],
+    category: "DEVOPS",
+    github: "https://github.com/Ashik-Ahammad/TIC-TAC-TOE",
+    webapp: "",
+    member: [
+      {
+        name: "Ashik Ahammad",
+        img: "https://avatars.githubusercontent.com/u/82080802?v=4",
+        linkedin: "https://www.linkedin.com/in/ashik-ahammad",
+        github: "https://github.com/Ashik-Ahammad/TIC-TAC-TOE",
+      },
+    ],
+  },
+
+  {
     id: 0,
     title: "Portfolio",
     date: "Portfolio Project - May 2024",
     description:
       "I just finish the process of re-designing my portfolio site into something more current and professional.",
     image:
-      "https://i.ibb.co/64g4KQ5/image.png",
-    tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
+      "https://i.ibb.co/mCBTsjvj/image.png",
+    tags: ["React JS", "MongoDb", "Node JS", "Express JS"],
     category: "web app",
     github: "https://github.com/Ashik-Ahammad",
     webapp: "",
@@ -273,15 +306,37 @@ export const projects = [
     ],
   },
 
+  // {
+  //   id: 2,
+  //   title: "MERN STACK CERTIFICATION",
+  //   date: "Jul 2021 - Dec 2021",
+  //   description:
+  //     "Mastered JavaScript for interactive web elements and advanced client-side functionality, while leveraging React for building dynamic, single-page applications (SPAs) with component-based architecture. Developed full-stack applications using JavaScript, React, Node.js, Express, MongoDB, and MySQL, focusing on functionality and database integration.",
+  //   image:
+  //     "https://i.ibb.co.com/0hHkrCK/certificate-web-Dev-Ashik.png",
+  //   tags: ["HTML", "CSS", "BOOTSTRAP","JS","REACT","NODE JS","EXPRESS","MySQL"],
+  //   category: "certification",
+  //   github: "https://github.com/Ashik-Ahammad",
+  //   webapp: "",
+  //   member: [
+  //     {
+  //       name: "Ashik Ahammad",
+  //       img: "https://avatars.githubusercontent.com/u/82080802?v=4",
+  //       linkedin: "https://www.linkedin.com/in/ashik-ahammad",
+  //       github: "https://github.com/Ashik-Ahammad",
+  //     },
+  //   ],
+  // },
+
   {
     id: 2,
-    title: "MERN STACK CERTIFICATION",
-    date: "Jul 2021 - Dec 2021",
+    title: "AWS Cloud Practitioner Essentials",
+    date: "June 2025",
     description:
-      "Mastered JavaScript for interactive web elements and advanced client-side functionality, while leveraging React for building dynamic, single-page applications (SPAs) with component-based architecture. Developed full-stack applications using JavaScript, React, Node.js, Express, MongoDB, and MySQL, focusing on functionality and database integration.",
+      "I’ve obtained a new certification: AWS Cloud Practitioner Essentials from Amazon Web Services (AWS)",
     image:
-      "https://i.ibb.co.com/0hHkrCK/certificate-web-Dev-Ashik.png",
-    tags: ["HTML", "CSS", "BOOTSTRAP","JS","REACT","NODE JS","EXPRESS","MySQL"],
+      "https://i.ibb.co/Zps6CZWB/Screenshot-2025-06-23-070232.png",
+    tags: ["AWS", "Cloud Computing", "Certification"],
     category: "certification",
     github: "https://github.com/Ashik-Ahammad",
     webapp: "",
