@@ -2,6 +2,7 @@ export const Bio = {
   name: "Ashik Ahammad",
   roles: [
     "DevOps Engineer",
+    "Web Developer",
   ],
   description:
     `DevOps Enthusiast with expertise in automation, infrastructure management, deployment pipelines,
@@ -113,7 +114,7 @@ export const skills = [
       {
         name: "Nodejs",
         image:
-          "https://static-00.iconduck.com/assets.00/nodejs-icon-2048x2048-rueyo8fw.png",
+          "https://i.ibb.co/S4VnTvXy/images.png",
       },
       {
         name: "MongoDB",
@@ -126,9 +127,14 @@ export const skills = [
           "https://cdn.prod.website-files.com/5f10ed4c0ebf7221fb5661a5/5f2ba11e378c8f49e8b28486_argo.png",
       },
       {
-        name: "HTML CSS",
+        name: "HTML",
         image:
-          "https://i.ibb.co/0yZhNrb6/html-css-1000x570.webp",
+          "https://static.vecteezy.com/system/resources/previews/001/416/705/non_2x/html5-emblem-orange-shield-and-white-text-vector.jpg",
+      },
+      {
+        name: "CSS",
+        image:
+          "https://lh3.googleusercontent.com/proxy/JJn8lJOjQG7I_nJFcmGszI1L7T62Ddwfk4xbG7auMxUgm0-7CorReauXC3UHmAYwGKIYLp8QyM8dEgGMGGISFRJ4zcKQM_By_BAryo5z",
       },
       {
         name: "Tailwind",
