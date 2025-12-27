@@ -171,8 +171,8 @@ export const education = [
     img: "https://i.ibb.co.com/mcqnRsN/channels4-profile.jpg",
     school: "Daffodil International University",
     date: "April 2021 - April 2025",
-    grade: " 3.17 CGPA",
-    desc: "I am a recent graduate in Computer Science and Engineering from Daffodil International University, Dhaka, with a CGPA of 3.17. My academic background includes comprehensive coursework in areas such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, and Web Engineering. These studies have equipped me with the knowledge and skills to solve complex engineering problems and develop practical software and IT solutions. Throughout my degree, I actively participated in team-based projects, technical presentations, and collaborative problem-solving activities, which strengthened my communication, and project management abilities.",
+    grade: " 3.21 CGPA",
+    desc: "I am a recent graduate in Computer Science and Engineering from Daffodil International University, Dhaka, with a CGPA of 3.21. My academic background includes comprehensive coursework in areas such as Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, Computer Networks, and Web Engineering. These studies have equipped me with the knowledge and skills to solve complex engineering problems and develop practical software and IT solutions. Throughout my degree, I actively participated in team-based projects, technical presentations, and collaborative problem-solving activities, which strengthened my communication, and project management abilities.",
     degree: "Bachelor of Science - B.Sc. in Computer Science and Engineering",
   },
   {
