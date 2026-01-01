@@ -69,7 +69,7 @@ export const skills = [
       {
         name: "Prometheus",
         image:
-          "https://www.honeycomb.io/wp-content/uploads/2021/12/blog_hnybyte_app_metrics_w_prometheus_thumbnail.jpg",
+          "https://i.ibb.co.com/wFLs7hzV/prometheus.png",
       },
       {
         name: "Grafana",
@@ -79,7 +79,7 @@ export const skills = [
     ],
   },
   {
-    title: "Familiar With",
+    title: "Development",
     skills: [
       {
         name: "Bash",
@@ -122,9 +122,9 @@ export const skills = [
           "https://cdn.worldvectorlogo.com/logos/mongodb-icon-2.svg",
       },
       {
-        name: "ArgoCD",
+        name: "NEXT.js",
         image:
-          "https://cdn.prod.website-files.com/5f10ed4c0ebf7221fb5661a5/5f2ba11e378c8f49e8b28486_argo.png",
+          "https://i.ibb.co.com/tpM9qJ7f/dango-inner-2.webp",
       },
       {
         name: "HTML",

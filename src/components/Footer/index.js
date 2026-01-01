@@ -102,7 +102,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2025 Ashik Ahammad. All rights reserved.
+          &copy; 2026 Ashik Ahammad. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
