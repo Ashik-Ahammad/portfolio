@@ -346,14 +346,19 @@ export const projects = [
     category: "certification",
     github: "https://github.com/Ashik-Ahammad",
     webapp: "",
-    member: [
-      {
-        name: "Ashik Ahammad",
-        img: "https://avatars.githubusercontent.com/u/82080802?v=4",
-        linkedin: "https://www.linkedin.com/in/ashik-ahammad",
-        github: "https://github.com/Ashik-Ahammad",
-      },
-    ],
+  },
+  {
+    id: 3,
+    title: "Network Professional",
+    date: "Jan 2025",
+    description:
+      "I’ve obtained a certification: Network Professional Program from DIU IT ACADEMY",
+    image:
+      "https://i.ibb.co.com/RTwqN4g1/25-00009.jpg",
+    tags: ["Network Associate", "Security", "Linux", "Cloud Computing", "Data Center Fundamentals"],
+    category: "certification",
+    github: "https://github.com/Ashik-Ahammad",
+    webapp: "https://itacademy.diu.edu.bd/verify/25-00009",
   },
 ];
 
