@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom';
 import HeroSection from "./components/HeroSection";
+import About from "./components/About"; 
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
@@ -57,11 +58,12 @@ function App() {
   const phoneNumber = "8801955482600"; 
 
   return (
-     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <Router >
         <Navbar />
         <Body>
           <HeroSection />
+          <About /> 
           <Wrapper>
             <Skills />
             <Experience />
@@ -69,19 +71,17 @@ function App() {
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
           <Wrapper>
             <Education />
-            <Contact />
+            <Contact setOpen={setSnackbarOpen} />
           </Wrapper>
           <Footer />
+          
           {openModal.state &&
             <ProjectDetails openModal={openModal} setOpenModal={setOpenModal} />
           }
         </Body>
 
-        <WhatsAppFloat 
-          href={`https://wa.me/${phoneNumber}`} 
-          target="_blank" 
-          rel="noopener noreferrer"
-        >
+        {/* Global Floating Elements (Fixed Z-Index) */}
+        <WhatsAppFloat href={`https://wa.me/${phoneNumber}`} target="_blank" rel="noopener noreferrer">
           <WhatsAppIcon sx={{ fontSize: '35px' }} />
         </WhatsAppFloat>
 
